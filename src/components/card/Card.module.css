@@ -1,0 +1,120 @@
+.card {
+  width: 90%;
+  margin: 0 auto 3rem;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: 1px 4px 20px 0px rgb(0 0 0 / 25%);
+}
+.special {
+  border-left: 0.4rem solid hsl(180, 29%, 50%);
+}
+.card .imgDiv {
+  position: relative;
+  height: 2rem;
+}
+.card .upperPortion,
+.card .lowerPortion {
+  width: 90%;
+  justify-self: right;
+  margin: 0 auto;
+}
+.card .imgDiv .image {
+  width: 3rem;
+  position: absolute;
+  transform: translateY(-50%);
+  margin-left: 5%;
+}
+
+/***********upper portion ****************/
+.card .upperPortion .identity {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.8rem;
+}
+.card .upperPortion .identity .company {
+  color: hsl(180, 29%, 50%);
+  font-weight: 600;
+  display: inline-block;
+  font-size: 14px;
+}
+.card .upperPortion .identity .new,
+.card .upperPortion .identity .featured {
+  border-radius: 1rem;
+  background-color: hsl(180, 29%, 50%);
+  color: white;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem 0.5rem;
+  margin-left: 4%;
+}
+.card .upperPortion .identity .featured {
+  margin-left: 2%;
+  background-color: hsl(180, 14%, 20%);
+}
+.card .upperPortion .position {
+  margin: 0 auto;
+  color: hsl(180, 14%, 20%);
+  font-weight: 800;
+}
+.card .upperPortion ul {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid hsl(180, 8%, 52%);
+  padding: 0.8rem 0;
+}
+.card .upperPortion ul li {
+  list-style: none;
+  color: hsl(180, 8%, 52%);
+  margin-right: 1rem;
+}
+.card .upperPortion ul .dot {
+  list-style: disc inside;
+}
+
+@media screen and (min-width: 1250px) {
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+  }
+  .card .imgDiv {
+    height: fit-content;
+    width: fit-content;
+    margin-right: 1.3rem;
+  }
+  .card .imgDiv .image {
+    position: static;
+    width: 6rem;
+    height: 6rem;
+    transform: translateX(0);
+    margin: 0;
+    justify-self: center;
+  }
+  .card .upperPortion .identity .company {
+    font-size: 1rem;
+  }
+  .card .upperPortion .position {
+    font-weight: 800;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  .card .upperPortion .position:hover {
+    color: hsl(180, 29%, 50%);
+  }
+  .card .upperPortion ul {
+    border: none;
+    padding-bottom: 0;
+  }
+  .card .upperPortion ul li {
+    margin-right: 1rem;
+  }
+  .card .lowerPortion .filters:hover {
+    background-color: hsl(180, 29%, 50%);
+    color: #fff;
+  }
+}
