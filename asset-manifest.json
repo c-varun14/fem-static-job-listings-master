@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/fem-static-job-listings-master/static/css/main.76742a9a.css",
+    "main.js": "/fem-static-job-listings-master/static/js/main.015fbdfb.js",
+    "static/media/loop-studios.svg": "/fem-static-job-listings-master/static/media/loop-studios.7778c957c5751d1502cc.svg",
+    "static/media/photosnap.svg": "/fem-static-job-listings-master/static/media/photosnap.5a867c13a374d62b400f.svg",
+    "static/media/manage.svg": "/fem-static-job-listings-master/static/media/manage.5a528a9669728fb94c8c.svg",
+    "static/media/insure.svg": "/fem-static-job-listings-master/static/media/insure.4d535e7e02c25d02b163.svg",
+    "static/media/account.svg": "/fem-static-job-listings-master/static/media/account.903d6cd02abadf4b4d60.svg",
+    "static/media/eyecam-co.svg": "/fem-static-job-listings-master/static/media/eyecam-co.0abb14e8a292eed471d5.svg",
+    "static/media/shortly.svg": "/fem-static-job-listings-master/static/media/shortly.3c01b577742e2648f6f9.svg",
+    "static/media/myhome.svg": "/fem-static-job-listings-master/static/media/myhome.aaaaa430346f24f652d5.svg",
+    "static/media/the-air-filter-company.svg": "/fem-static-job-listings-master/static/media/the-air-filter-company.9b55f6443c39f7b79348.svg",
+    "static/media/faceit.svg": "/fem-static-job-listings-master/static/media/faceit.54a148ce9e8793ff767e.svg",
+    "static/media/bg-header-desktop.svg": "/fem-static-job-listings-master/static/media/bg-header-desktop.8694f4668c94cdc9d16e.svg",
+    "index.html": "/fem-static-job-listings-master/index.html",
+    "static/media/bg-header-mobile.svg": "/fem-static-job-listings-master/static/media/bg-header-mobile.9cb13612af1317a665a2.svg",
+    "static/media/style-guide.md": "/fem-static-job-listings-master/static/media/style-guide.e355fbb3a819a00fb576.md",
+    "static/media/icon-remove.svg": "/fem-static-job-listings-master/static/media/icon-remove.70c075ce001e5ccae7c6.svg",
+    "main.76742a9a.css.map": "/fem-static-job-listings-master/static/css/main.76742a9a.css.map",
+    "main.015fbdfb.js.map": "/fem-static-job-listings-master/static/js/main.015fbdfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76742a9a.css",
+    "static/js/main.015fbdfb.js"
+  ]
+}
