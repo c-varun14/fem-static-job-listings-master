@@ -7,7 +7,7 @@ const Header = () => {
   const filters = useSelector((state) => state.jobs.filters);
   const screenWidth = useScreenWidth();
   let margin =
-    filters.length > 4 && screenWidth < 520
+    filters.length > 3 && screenWidth < 520
       ? {
           marginBottom: "9rem",
         }
